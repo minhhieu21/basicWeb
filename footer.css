@@ -1,0 +1,65 @@
+/* Css phần footer */
+.container footer{
+    width: 100%;
+    height: 400px;
+    background-color: #f2efea;
+    position: absolute;
+    top: 1390px;
+  } 
+  #footer .f-info{
+    width: 650px;
+    height: 190px;
+    position: absolute;
+    top: 90px;
+    left: 65px;
+  }
+  #footer .pay{
+   width: 650px;
+   height: 190px;
+   position: absolute;
+   top: 90px;
+   right: 0px;
+ }
+ #footer .pay > p, span {
+   left: 0px;
+   position: absolute;
+  color: #d89216;
+ }
+ #footer .pay span > strong {
+  color: black;
+ }
+ 
+  #footer .f-info > p, span {
+    left: 0px;
+    position: absolute;
+   color: #d89216;
+ }
+ #footer .f-info span > strong {
+   color: black;
+ }
+ #footer .icon-contact {
+   width: 310px;
+   position: absolute;
+   top: 10px;
+   right: 80px;
+   display: flex;
+   flex-direction: row;
+ }
+ #footer .icon-contact a {
+   font-size: 40px;
+   margin: 5px auto;
+ }
+ #footer .icon-contact a :hover{
+ color: #a8dda8;
+ }
+ #footer .copy {
+   position: absolute;
+   font-family:'Ek Mukta';
+   bottom: 10px;
+   left: 29%;
+   color: black;
+   word-spacing: 3px;
+   text-align: center;
+   font-size: larger;
+ }
+ 

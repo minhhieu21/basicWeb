@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container header{
+  width: 100%;
+  height: 350px;
+}
+.a ul li{
+  display: inline-block;
+}
+.a ul li a{
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+}
+.a ul{
+  position: absolute;
+  width: 290px;
+  height: 20px;
+  background-color: #e8eae6;
+  padding: 10px;
+  border-radius: 4px 10px;
+  top: 10px;
+  right: 0px;
+  box-shadow: 0 0 10px;
+}
+.a ul li a:hover{
+  color: red;
+}
+.img{
+  position: relative;
+}
+
+
+marquee{
+  position: absolute;
+  top: 315px;
+  font-family:'Ek Mukta';
+  color: #ec4646;
+  font-size: 20px;
+}
+article{
+  position: relative;
+}
+iframe[name=page]{
+  position: absolute;
+  width: 100%;
+  height: 1000px;
+  top: 80px;
+  background-color: aqua;
+}

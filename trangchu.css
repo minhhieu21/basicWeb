@@ -1,0 +1,49 @@
+.col-25{
+    position: relative;
+    top: 80px;
+}
+.prod:hover{
+    background-color: #bdbebe;
+}
+
+
+
+
+.hot_keywords{
+    position: relative;
+    top: 150px;
+}
+.hot_keywords>h2{
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+}
+
+ol li a{
+    color: #008891;
+    text-align: center;
+    text-decoration: none;
+}
+ol li{
+    display: inline-block;
+}
+
+.hot_keywords ol a {
+    font-weight: 300;
+    padding: 5px 20px  ;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: block;
+    background: #f1f1f1;
+}
+.hot_keywords ol a:hover{
+    color: white;
+    background-color: black;
+}
+li {
+    margin: 0;
+    padding: 2px 0;
+    text-align: left;
+    text-indent: 0;
+    list-style-type: none;
+}
